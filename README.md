@@ -27,7 +27,7 @@ A simple, lightweight bash script and utility to quickly open a GitHub repositor
 
 ### 2. Update your PATH
 
-For the command to work from any directory, ensure the script's location (`~/bin`) is in your system's `$PATH`. Add the following line to your **`~/.bashrc`** or **`~/.zshrc`** file:
+For the command to work from any directory, ensure the script's location (`~/bin`) is in your system's `$PATH`. Add the following line to your **`~/.bashrc`** file:
 
 ```bash
 export PATH="$HOME/bin:$PATH"
