@@ -42,6 +42,6 @@ The script supports three modes of operation:
 
 | Mode | Command | Description |
 | :--- | :--- | :--- | 
-| **Detect** | `open_repo.sh` | Run this command **inside** a local Git repository... |
+| **Detect** | `open_repo.sh` | Run this command **inside** a local Git repository. The script extracts the URL from your `origin` remote and opens it. |
 | **Explicit (Name Only)** | `open_repo.sh my-project` | Opens `https://github.com/DEFAULT_OWNER/my-project`. |
 | **Explicit (Full Path)** | `open_repo.sh user-org/other-repo` | Opens https://github.com/user-org/other-repo, ignoring the DEFAULT_OWNER setting. |
